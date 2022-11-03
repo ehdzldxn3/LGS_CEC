@@ -8,13 +8,23 @@ document.addEventListener("DOMContentLoaded", () => {
     let folder_item = document.querySelectorAll('.folder-item')
     let folder_sub_box = document.querySelectorAll('.folder-sub-box')
     let folder_sub_item = document.querySelectorAll('.folder-sub-item')
+
+    // server-list
+    let list_section = document.getElementById('list_section')
+
     
 
     
     
     // menu open
     arrow_btn.addEventListener('click', (e) => {
+        
         menu.classList.toggle('menu-open')
+        
+        if(list_section !== null) {
+            list_section.classList.toggle('menu-open')
+        }
+
         // main folder title hide & show
         folder_main_title.forEach((item, index) => {
             item.classList.toggle('hide')
@@ -57,7 +67,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     if(item.classList.contains('sub-open')) item.classList.remove('sub-open')
                 }
             })
+
+            if(menu.classList.contains('menu-open')) {
+                if(list_section !== null) {
+                    list_section.classList.add('menu-open')
+                }
+            }
+
         })
+
     })
 
     // folder sub click

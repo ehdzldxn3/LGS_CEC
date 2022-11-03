@@ -1,4 +1,3 @@
-
 .hide {
     display: none !important;
 }
@@ -7,13 +6,30 @@
     display: block !important;
 }
 
-/* 바 */
-.hsplitter {
-    /* background-color: red !important; */
-}
 
-/* 스플릿 바 */
+
+
 #splitter {
     width: 100%;
     height: 100%;
 }
+
+.splitter_panel .hsplitter {
+    background-color: #5F5F5F;
+    cursor: row-resize;
+    height: 1px;
+}
+
+.hsplitter::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+    background-image: url('../image/header/info-icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGS-CSC</title>
+
+    <!-- lib -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../lib/jquery.splitter.js"></script>
+
+
+    <!-- Grobal -->
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- header -->
+    <link rel="stylesheet" href="../css/header.css">
+    
+    <!-- menu -->
+    <link rel="stylesheet" href="../css/menu.css">
+    <script src="../js/menu.js"></script>
+
+    
+    
+    
+
+    <!-- list -->
+    <link rel="stylesheet" href="../css/list.css">
+    <script src="../js/list.js"></script>
+</head>
+
+
+<body id="body" class="body">
+
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-item-box">
+
+                <div class="info-box">
+                    <div class="info-icon"></div>
+                    <span class="info-name">marster님</span>
+                </div>
+                <div class="btn-box">
+                    <input type="button" value="로그아웃" class="btn-logout">
+                    <input type="button" value="터미널 보기" class="btn-terminal">
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- left menu -->
+    <nav class="menu ">
+        <div class="menu-inner">
+            <div class="menu-title-box hide">
+                <span class="menu-title">CEC</span>
+            </div>
+            <div class="arrow-btn-box">
+                <button class="arrow-btn"></button>
+            </div>
+        </div>
+
+        <div class="folder-box">
+            <ul class="folder-list">
+
+                <li class="folder-item">
+                    <div class="folder-main-box">
+                        <div class="folder-main-img"></div>
+                        <span class="folder-main-title hide">서버관리</span>
+                    </div>
+                    <div class="folder-sub-box hide ">
+                        <ul class="folder-sub-list">
+                            <li class="folder-sub-item">
+                                <div class="folder-sub-item-box">
+                                    <div class="folder-sub-img"></div>
+                                    <span class="folder-sub-title">서버리스트</span>
+                                </div>
+                            </li>
+                            <li class="folder-sub-item">
+                                <div class="folder-sub-item-box">
+                                    <div class="folder-sub-img"></div>
+                                    <span class="folder-sub-title">서버리스트1234</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+
+                <li class="folder-item">
+                    <div class="folder-main-box">
+                        <div class="folder-main-img"></div>
+                        <span class="folder-main-title hide">서버관리2</span>
+                    </div>
+                    <div class="folder-sub-box hide ">
+                        <ul class="folder-sub-list">
+                            <li class="folder-sub-item">
+                                <div class="folder-sub-item-box">
+                                    <div class="folder-sub-img"></div>
+                                    <span class="folder-sub-title">서버리스트2</span>
+                                </div>
+                            </li>
+                            <li class="folder-sub-item">
+                                <div class="folder-sub-item-box">
+                                    <div class="folder-sub-img"></div>
+                                    <span class="folder-sub-title">서버리스트2</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>            
+                <li class="folder-item">
+                    <div class="folder-main-box">
+                        <div class="folder-main-img"></div>
+                        <span class="folder-main-title hide">서버관리3</span>
+                    </div>
+                    <div class="folder-sub-box hide ">
+                        <ul class="folder-sub-list">
+                            <li class="folder-sub-item">
+                                <div class="folder-sub-item-box">
+                                    <div class="folder-sub-img"></div>
+                                    <span class="folder-sub-title">서버리스트3</span>
+                                </div>
+                            </li>
+                            <li class="folder-sub-item">
+                                <div class="folder-sub-item-box">
+                                    <div class="folder-sub-img"></div>
+                                    <span class="folder-sub-title">서버리스트3</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>   
+
+
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <section class="list-section" id="list_section">
+        <div class="list-inner">
+            <div id="splitter">
+                
+                <div class="list-grid-box resizable-top">
+                    <div class="grid-option-box">
+
+                        <div class="grid-search-box">
+                            <img src="../image/list/ico-search.svg" alt="" class="search-img">
+                            <input type="text" class="search-text" placeholder="Search">
+                        </div>
+
+                        <div class="grid-api-box">
+
+                            <div class="api-refresh-box">
+                                <img src="../image/list/ico_refresh.svg" alt="">
+                            </div>
+
+                            <div class="api-page">
+                                <span class="page-title">
+                                    1-5 of 13
+                                </span>
+                            </div>
+
+                            <div class="api-page-arrow">
+                                <img class="page-arrow-btn" src="../image/list/arrow-off.svg">
+                                <img class="page-arrow-btn" src="../image/list/arrow-on.svg">
+                            </div>
+                            
+
+                        </div>
+
+                    </div>
+
+                    <div class="list-grid">
+                    </div>
+
+
+
+                </div>
+                
+                
+                <div class="server-detail-box resizable-bottom">
+                    
+
+                    <div class="detail-box">
+
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+    </section>
+
+
+
+</body>
+</html>
