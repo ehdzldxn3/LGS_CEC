@@ -2,6 +2,9 @@
     width: 70px;
     height: 100vh;
     background-color: #F6F8F9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .menu-open {
@@ -41,10 +44,10 @@
 }
 
 .arrow-btn-box .arrow-btn {
-    background-image: url('../image/menu/arrow.png');
+    background-image: url('../image/menu/arrow.svg');
     background-repeat: no-repeat;
     width: 5px;
-    height: 9px;
+    height: 12px;
     transform: rotate(180deg);
 }
 

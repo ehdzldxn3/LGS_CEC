@@ -93,7 +93,9 @@ a {
 	-moz-appearance: none;
 	appearance: none; /* 화살표 */
 }
-
+input {
+	outline: none;
+}
 
 
 

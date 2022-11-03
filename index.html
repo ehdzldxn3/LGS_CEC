@@ -14,14 +14,26 @@
     <!-- header -->
     <link rel="stylesheet" href="./css/header.css">
     
-
-
     <!-- menu -->
     <link rel="stylesheet" href="./css/menu.css">
     <script src="./js/menu.js"></script>
 
-    
+    <!-- splitter -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/jquery.splitter/js/jquery.splitter.js"></script>
+    <link href="https://unpkg.com/jquery.splitter/css/jquery.splitter.css" rel="stylesheet"/>
+
+    <!-- list -->
+    <link rel="stylesheet" href="./css/list.css">
+    <script src="./js/list.js"></script>
+
+
+
+
+
 </head>
+
+
 <body id="body" class="body">
 
     <header class="header">
@@ -30,7 +42,7 @@
 
                 <div class="info-box">
                     <div class="info-icon"></div>
-                    <span class="info-name">marster</span>
+                    <span class="info-name">marster님</span>
                 </div>
                 <div class="btn-box">
                     <input type="button" value="로그아웃" class="btn-logout">
@@ -130,6 +142,53 @@
         </div>
     </nav>
 
+
+
+    <section class="list-section" >
+        <div class="list-inner">
+            <div id="splitter">
+
+                <div class="list-grid-box">
+                    <div class="grid-option-box">
+
+                        <div class="grid-search-box">
+                            <img src="./image/list/ico-search.svg" alt="" class="search-img">
+                            <input type="text" class="search-text" placeholder="Search">
+                        </div>
+
+                        <div class="grid-api-box">
+
+                            <div class="api-refresh-box">
+                                <img src="./image/list/ico_refresh.svg" alt="">
+                            </div>
+
+                            <div class="api-page">
+                                <span class="page-title">
+                                    1-5 of 13
+                                </span>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="list-grid">
+                    </div>
+
+                </div>
+
+                <div class="server-detail-box">
+                    <div class="detail-box">
+
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+    </section>
 
 
 
