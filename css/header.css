@@ -1,0 +1,13 @@
+.header {
+    position: fixed;
+}
+.header .header-inner {
+    height: 50px;
+    width: 100vw;
+}
+
+.header-inner .header-item-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
