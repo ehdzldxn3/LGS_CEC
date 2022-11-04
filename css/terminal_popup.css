@@ -1,0 +1,56 @@
+.terminal-section {
+
+}
+
+.terminal-section .terminal-header {
+    width: 100vw;
+    height: 56px;
+}
+.terminal-header .terminal-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    border: 1px solid #C9C9C9;
+}
+.terminal-inner .terminal-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2C2C2C;
+    padding-left: 24px;
+}
+.terminal-inner .terminal-end {
+    width: 10px;
+    height: 10px;
+    background-image: url('../image/terminal_popup/close.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+}
+
+
+.terminal-section .terminal-menu-box {
+    border-bottom: 1px solid #DDE1E4;
+}
+.terminal-menu-box .terminal-menu-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.terminal-menu-list .terminal-menu-item {
+    width: 88px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.terminal-menu-item .terminal-menu-title {
+    margin: 0 auto;
+}
+
+
+.terminal-menu-item.terminal-select {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #252C32;
+}
