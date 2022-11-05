@@ -1,0 +1,21 @@
+body .cec-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 999;
+    
+}
+
+
+.menu-open.cec-section .cec-inner{
+    width: calc(100vw - 240px);
+    transition: 0.2s;
+}
+
+.cec-section .cec-inner{
+    width: calc(100vw - 70px);
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    transition: 0.2s;
+}

@@ -9,10 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let folder_sub_box = document.querySelectorAll('.folder-sub-box')
     let folder_sub_item = document.querySelectorAll('.folder-sub-item')
 
-    // server-list
-    let list_section = document.getElementById('list_section')
-
     
+    let list_section = document.getElementById('list_section')
+    let cec_section = document.getElementById('cec_section')
+    let lookup_section = document.getElementById('lookup_section')
+        
 
     
     
@@ -21,9 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
         
         menu.classList.toggle('menu-open')
         
-        if(list_section !== null) {
-            list_section.classList.toggle('menu-open')
-        }
+        if(list_section !== null)list_section.classList.toggle('menu-open')
+        if(cec_section !== null)cec_section.classList.toggle('menu-open')
+        if(lookup_section !== null)lookup_section.classList.toggle('menu-open')
+        
 
         // main folder title hide & show
         folder_main_title.forEach((item, index) => {
@@ -69,9 +71,9 @@ document.addEventListener("DOMContentLoaded", () => {
             })
 
             if(menu.classList.contains('menu-open')) {
-                if(list_section !== null) {
-                    list_section.classList.add('menu-open')
-                }
+                if(list_section !== null) list_section.classList.add('menu-open')
+                if(cec_section !== null) cec_section.classList.add('menu-open')
+                if(lookup_section !== null)lookup_section.classList.add('menu-open')
             }
 
         })

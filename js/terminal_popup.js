@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let upload_file_text = document.getElementById('upload_file_text')
     let upload_file = document.getElementById('upload_file')
     let upload_file_btn = document.getElementById('upload_file_btn')
+
+    
     
 
     terminal_menu_item.forEach((item, index) => {

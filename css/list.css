@@ -5,7 +5,6 @@ body .list-section {
     display: flex;
     justify-content: flex-end;
     z-index: 999;
-    
 }
 
 
@@ -30,85 +29,11 @@ body .list-section {
 
 .list-inner .list-grid-box {
     width: 100%;
-    height: 50%;    
+    height: calc(50% - 46px);    
     border-top: 1px solid #E5E9EB;
     overflow: auto;
     overflow-x: hidden;
 }
-
-.list-grid-box .grid-option-box {
-    width: 100%;
-    height: 46px;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-.list-grid-box .grid-search-box {
-    margin-left: 18px;
-    width: 280px;
-    height: 32px;
-    border: 1px solid #DDE2E4;
-    display: flex;
-    align-items: center;
-    border-radius: 6px;
-    
-}
-
-.grid-search-box .search-img {
-    width: 16px;
-    height: 16px;
-    margin-left: 8px;
-}
-
-.grid-search-box .search-text {
-    border: 0px;
-    border-radius: 6px;
-    width: 100%;
-    margin-left: 8px;
-}
-
-.grid-option-box .grid-api-box {
-    position: absolute;
-    right: 30px;
-    display: flex;
-}
-
-.grid-api-box .api-refresh-box {
-    border-left: 2px solid #E5E9EB;
-    border-right: 2px solid #E5E9EB;
-    width: 52px;
-    display: flex;
-    justify-content: center;
-}
-
-.api-refresh-box img {
-    cursor: pointer;
-}
-
-
-.grid-api-box .api-page {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.api-page .page-title {
-    font-size: 12px;
-    color: #000;
-    opacity: 0.5;
-}
-
-.grid-option-box .api-page-arrow {}
-.api-page-arrow .page-arrow-btn {
-    width: 7.5px;
-    height: 12px;
-    cursor: pointer;
-}
-
-.api-page-arrow .page-arrow-btn:nth-child(1) {
-    margin-right: 38px;
-}
-
-
-
 
 .list-grid-box .grid-box {
     display: flex;
@@ -144,23 +69,6 @@ body .list-section {
 
 }
 
-.table-body .table-item-row {
-    border-top: 1px solid #E5E9EB;
-    height: 40px;
-}
-.table-item-row .table-item {
-    padding-left: 16px;
-    color: #252C32;
-    font-size: 14px;
-    
-}
-.table-item .table-item-check {}
-
-
-
-.table-body .table-item-row:nth-child(odd) {
-    background-color: #F6F9FF;
-}
 
 
 .list-inner .server-detail-box {
@@ -305,3 +213,7 @@ body .list-section {
     padding: 20px;
 }
 
+#splitter {
+    width: 100%;
+    height: calc(100% - 46px);
+}
