@@ -176,9 +176,145 @@ body {
 
 
 
+.terminal-wrap .monitor-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+    overflow: auto;
+}
 
+.monitor-inner .user-cpu-box {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
+.user-cpu-box .user-box,
+.user-cpu-box .cpu-box {
+    width: 50%;
+}
 
+.user-box .user-box-inner {
+    background-color: #fff;
+    border: 1px solid #E5E9EB;
+    height: 155px;
+    border-radius: 6px;
+    margin-right: 7px;
+}
+.user-box-inner .user-title-box {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid #E5E9EB;
+}
+.user-title-box .user-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+.user-box-inner .user-chart {}
+
+/*  */
+
+.cpu-box .cpu-box-inner {
+    background-color: #fff;
+    border: 1px solid #E5E9EB;
+    height: 155px;
+    border-radius: 6px;
+    margin-left: 7px;
+}
+.cpu-box-inner .cpu-title-box {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid #E5E9EB;
+}
+.cpu-title-box .cpu-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+.cpu-box-inner .cpu-chart {}
+
+.monitor-inner .monitor-log-box {
+    width: 100%;
+    height: 155px;
+    padding-top: 15;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.monitor-log-box .monitor-log-inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: 1px solid #E5E9EB;
+    background-color: #fff;
+}
+
+.monitor-log-inner .log-title-box {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid #E5E9EB;
+}
+
+.log-title-box .logo-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.terminal-wrap .upload-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.upload-inner .upload-file-box {
+    /* height: 35px; */
+    /* margin-bottom: 30px; */
+}
+
+.upload-file-box .upload-file-text {
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+    background-color: #fff;
+    height: 35px;
+    width: 600px;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.upload-file-box .upload-file-btn {
+    height: 35px;
+    width: 75px;
+    background-color: #2C2C2C;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.upload-inner .upload-route-box {
+    padding-top: 30px;
+}
+.route-title-box .route-title {
+    font-size: 14px;
+    font-weight: 400;
+}
+.upload-route-box .route-text-box {
+    padding-top: 10px;
+}
+.route-text-box .upload-route-text {
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+    background-color: #fff;
+    height: 35px;
+    width: 600px;
+    padding-left: 25px;
+    font-size: 12px;
+}
 
 
 

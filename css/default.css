@@ -95,6 +95,10 @@ a {
 }
 input {
 	outline: none;
+
+}
+input[type="file"] {
+	display: none;
 }
 
 
