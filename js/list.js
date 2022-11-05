@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             if(info_box[index].classList.contains('hide'))info_box[index].classList.remove('hide')
 
-            item.classList.toggle('detail-select')
+            item.classList.add('detail-select')
         })
     })
 
